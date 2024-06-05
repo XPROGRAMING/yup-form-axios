@@ -21,6 +21,7 @@
 h2 {
   color: white;
   margin-bottom: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 input {
@@ -38,6 +39,7 @@ input {
 button {
   width: 100%;
   padding: 10px;
+  margin-top: 10px;
   background-image: linear-gradient(to right, #ff8a00, #e52e71);
   border: none;
   border-radius: 5px;
@@ -49,6 +51,13 @@ button {
 p {
   color: white;
   margin-top: 10px;
+}
+.errors{
+  color: #e52e71;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
 }
 
 .login a {
